@@ -1,0 +1,59 @@
+header {
+    background-color: #DEC2BA;
+    /* height: 100; */
+}
+
+.inline-block {
+    display:inline-block;
+    vertical-align: top;
+}
+
+.logo {
+    width: 10%;
+    padding:3%;
+}
+
+nav {
+    width:90%;
+    padding: 1%;
+    margin-left: -150px;
+    margin-top: -80px;
+}
+
+ul {
+    width: 50%;
+    margin-left: auto;
+}
+
+li {
+    display: inline-block;
+    color: white;
+    padding-right: 60;
+}
+
+.heroImg {
+    display: inline-block;
+    width: 100%;
+}
+
+.profile {
+    width: 400;
+    height: 400;
+    margin-top: -15%;
+    margin-right: 7%;
+    object-fit: cover;
+    border-radius: 10px;
+    float: right;
+}
+
+.greeting {
+    /* width: 500px; */
+    width: 50%;
+    margin-top: 100px;
+    margin-left: 5%;
+}
+
+p {
+    font-size: 17;
+    line-height: 200%;
+}
