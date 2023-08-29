@@ -57,3 +57,31 @@ p {
     font-size: 17;
     line-height: 200%;
 }
+
+.flexContainer {
+    display: flex;
+}
+
+.skill {
+    width: 33%;
+    align-items: center;
+    padding: 10%;
+}
+
+.workGrid {
+    display: grid;
+    grid-template-rows: 400px 400px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "travel"
+    "vitality"
+    ;
+}
+
+.work {
+    padding: 10%;
+}
+
+.skillHeader {
+    align-items: center;
+}
